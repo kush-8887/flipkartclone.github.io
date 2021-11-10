@@ -1,0 +1,70 @@
+/* Utility Classes */
+.flex-all-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* buttons */
+.btn-primary {
+  padding: 9px 30px 9px 30px;
+  font-family: "Lato";
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: solid #fff;
+  font-weight: bold;
+  font-size: 13px;
+}
+.btn-login {
+  padding: 6px 30px 8px 30px;
+  font-family: "Lato";
+  background-color: #fff;
+  border: solid #fff;
+  border-radius: 2px;
+  color: var(--nav-color);
+  font-weight: bold;
+  font-size: 13px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+/* Item Cards */
+.item-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 21px;
+}
+.item-title {
+  margin-top: 18px;
+}
+.item-price-discount {
+  color: var(--discount-color);
+  padding-top: 9px;
+}
+.brand-name {
+  color: var(--secondary-text-color);
+  opacity: 1.6;
+  padding-top: 7px;
+  font-size: 14px;
+}
+.item-images{
+  height: 140px;
+}
+
+.img-div {
+  height: 150px;
+}
+/* Arrow Buttons   */
+.arrow-div {
+  padding: 117px 10px;
+}
+.arrow {
+  height: 40px;
+}
+.arrow:hover {
+  cursor: pointer;
+}
+.right-arrow {
+  transform: rotate(180deg);
+}
