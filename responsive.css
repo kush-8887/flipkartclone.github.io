@@ -103,13 +103,16 @@
         font-size: 12px;
     }
 }
-@media (max-width:407px) and (min-width:350px){
+@media (max-width:408px) and (min-width:350px){
     .item-card{
         padding: 11px 12px;
         font-size: 11px;
     }
     .image-div{
         height: 138px;
+    }
+    .item-images{
+        height: 130px;
     }
     .item-title{
         margin-top: 15px;
@@ -140,6 +143,9 @@
     }
     .image-div{
         height: 138px;
+    }
+    .item-images{
+        height: 130px;
     }
     .item-title{
         margin-top: 15px;
@@ -203,6 +209,9 @@
     }
 }
 @media (max-width:407px) and (min-width:350px){
+    .item-images{
+        height: 130px;
+    }
     .item-card{
         padding: 11px 12px;
         font-size: 11px;
@@ -232,7 +241,16 @@
         display: none;
     }
 }
-@media (max-width:349px) and (min-width:80px){
+@media (max-width:350px) and (min-width:80px){
+    .trending-item-container{
+        flex-direction: column;
+    }
+    .item-container{
+        flex-direction: column;
+    }
+    .item-images{
+        height: 130px;
+    }
     .item-card{
         padding: 11px 12px;
         font-size: 11px;
@@ -263,5 +281,14 @@
     }
     .diss-card{
         display: none;
+    }
+}
+/* Phones section  */
+@media (max-width:350px) and (min-width:80px){
+    .phone-item-container{
+        flex-direction: column;
+    }
+    .item-container{
+        flex-direction: column;
     }
 }
