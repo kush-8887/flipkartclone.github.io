@@ -292,3 +292,14 @@
         flex-direction: column;
     }
 }
+/* footer  */
+@media (max-width:1035px) and (min-width:585px) {
+    .footer-card{
+        padding-right: 12px;
+    }
+}
+@media (max-width:585px) and (min-width:80px){
+    .footer{
+        display: none;
+    }
+}

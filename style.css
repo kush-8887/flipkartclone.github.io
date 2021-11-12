@@ -5,6 +5,7 @@
   --white-color:#fff;
   --discount-color:#388e3c;
   --secondary-text-color:#9b9b9b;
+  --footer-color:#172337;
 }
 /* CSS Reset */
 * {
@@ -168,4 +169,50 @@ nav ul li a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+.item-images:hover{
+  cursor: pointer;
+}
+/* Footer  */
+.footer{
+  margin-top: 40px;
+  background-color: var(--footer-color);
+  color: var(--white-color);
+  height:fit-content ;
+}
+.footer-item-container{
+  margin: 0px 60px;
+  padding-top: 43px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer-heading{
+  color: #878787;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+.footer-items{
+  color: var(--white-color);
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+}
+.address-card{
+  border-left: 1px solid #454d5e;
+  padding: 0px 25px;
+  height: fit-content;
+}
+.address-card p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.office-address-card p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
 }
